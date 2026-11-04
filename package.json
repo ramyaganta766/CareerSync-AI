@@ -1,0 +1,22 @@
+{
+  "name": "careersync-ai",
+  "version": "1.0.0",
+  "description": "CareerSync AI - Intelligent MERN Career Readiness & Skill Gap Platform",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:auth": "cd backend && node test_api.js"
+  },
+  "keywords": [
+    "mern",
+    "career-readiness",
+    "skill-gap-analysis",
+    "resume-analyzer",
+    "ai-career-advisor"
+  ],
+  "author": "CareerSync AI Team",
+  "license": "ISC"
+}
